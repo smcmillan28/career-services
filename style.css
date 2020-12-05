@@ -1,0 +1,57 @@
+header {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 3px;
+    background-color: #efeee7;
+    width: 1024px;
+}
+
+.headerContact {
+    font-size: 15px;
+}
+
+body {
+    background-color: #f5edb2;
+}
+
+h2 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+h3 {
+    margin: 10px;
+}
+
+p, ul {
+    font-size: 15px;
+    margin: 10px;
+    margin-top: 10px;
+}
+
+div {
+    border-style: solid;
+    border-width: 3px;
+    background-color: #efeee7;
+    width: 1024px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.jobTitle {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.compDesc {
+    font-style: italic;
+    font-size: 15px;
+}
+
+table {
+    font-size: 15px;
+    margin: 10px;
+}
