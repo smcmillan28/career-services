@@ -28,8 +28,8 @@ h4 {
 
 /* Eliminates page margins and adjusts container width when navigating mobile devices */
 
-@media only screen and (max-width: 500px) {
-    .container {
-        width: 100%;
+/* @media screen and (max-width: 500px) {
+    .container-md {
+        width: 70%;
     }
-}
+} */
