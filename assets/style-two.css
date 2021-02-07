@@ -5,12 +5,31 @@ body {
 .container-md {
     border: 2px solid black;
     border-radius: 5px;
-    margin: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
     padding: 20px;
     background-color: white;
+}
+
+#header {
+    margin-top: 20px;
 }
 
 h4 {
     text-decoration: underline;
     margin-bottom: 20px;
+}
+
+.col-md-4 {
+    border: 1px dashed black;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/* Eliminates page margins and adjusts container width when navigating mobile devices */
+
+@media only screen and (max-width: 500px) {
+    .container {
+        width: 100%;
+    }
 }
